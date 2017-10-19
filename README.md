@@ -26,7 +26,14 @@ _by Arieta Haskaj_
 
 ---
 ## Initial Setup
-
+#### Creating a github account
+1. Go to [github](www.github.com).
+2. You should see a screen asking you to create an account. If not, click on "Sign up"  
+   in the top-right corner.
+3. Type in a username, email address, and password then click "Create an account"
+4. It will bring you to a welcome page. Choose the option that says "Unlimited public repositories for free"  
+   and click "Continue".
+5. 
 
 
 ---
