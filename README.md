@@ -21,7 +21,7 @@ _by Arieta Haskaj_
 * Code is stored in the cloud
 * It visually tracks changes
 * Code is sent from our local machine to github
-* Github **NEED** git to run
+* Github **NEEDS** git to run
 
 
 ---
