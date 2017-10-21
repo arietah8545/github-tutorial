@@ -45,6 +45,9 @@ _by Arieta Haskaj_
 8. Press "SSH and GPG keys" on the left side and then the green button that says "New SSH key".
 9. Paste the SSH key under "key" and type "cloud9" as the title.  
 10. Click "Add SSH key".  
+11. To make sure it is working, go back to your terminal and type `ssh -T git@github.com`. You  
+    should see a message that says "Hi <your username>! You've successfully authenticated, but  
+    GitHub does not provide shell access."
 **_You have now finished setting yourself up to use cloud9 and github!_**
 
 
@@ -58,7 +61,7 @@ _by Arieta Haskaj_
 4. To initialize this directory, or get it ready coding, type `git init`. You should see  
    `yourusername:~/workspace/yourdirectoryname (master)`. If you accidentally initialized the wrong directory, 
    type `rm -rf .git`. This will unitialize it and you can then repeat steps 3+4 to initialize it correctly.  
-**_You have now created your first repository and prepared it for coding_**
+**_You have now created your first repository and prepared it for coding._**
 #### How to add and commit
 1. Now that you have created a repository in cloud9, you can begin coding. To create a new file, type  
    `touch yourfilename`.  Type whatever you want in this file.
@@ -69,7 +72,15 @@ _by Arieta Haskaj_
 4. Now type `git commit -m "your commit message"`. This takes a "snapshot" of the files on the stage.  
    Your message should be relevant and written in the present tense.  
 **_You have now added and committed for the first time._**
-#### Remote repositories
+#### Creating a remote repository
+1. Go to [github](www.github.com).
+2. Click on the "+" sign on the top-right corner then click "New repository". You will be brought to a  
+   page entitled "Create a new repository".
+3. Under "Repository name", type the name _exactly_ the same as your repository in cloud9. Then click  
+   the green button called "Create repository".
+#### Linking your remote repository to your local repository on cloud9
+1. Go to your repository in cloud9.
+2. 
 
 
 ---
