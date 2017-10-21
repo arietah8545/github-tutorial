@@ -45,7 +45,6 @@ _by Arieta Haskaj_
 8. Press "SSH and GPG keys" on the left side and then the green button that says "New SSH key".
 9. Paste the SSH key under "key" and type "cloud9" as the title.  
 10. Click "Add SSH key".  
-
 **_You have now finished setting yourself up to use cloud9 and github!_**
 
 
@@ -58,7 +57,7 @@ _by Arieta Haskaj_
 3. Go into this directory by typing `cd yourdirectoryname`. You should see `yourusername:~/workspace/yourdirectoryname`.
 4. To initialize this directory, or get it ready coding, type `git init`. You should see  
    `yourusername:~/workspace/yourdirectoryname (master)`. If you accidentally initialized the wrong directory, 
-   type `rm -rf .git`. This will unitialize it and you can then repeat steps 3+4 to initialize it correctly.
+   type `rm -rf .git`. This will unitialize it and you can then repeat steps 3+4 to initialize it correctly.  
 **_You have now created your first repository and prepared it for coding_**
 #### How to add and commit
 1. Now that you have created a repository in cloud9, you can begin coding. To create a new file, type  
@@ -68,7 +67,7 @@ _by Arieta Haskaj_
 3. To add everything to the staging area, which prepares it for being committed, type `git add .` When  
    you type `git status` again, you should now see `modified: yourfilename` in green.
 4. Now type `git commit -m "your commit message"`. This takes a "snapshot" of the files on the stage.  
-   Your message should be relevant and written in the present tense. 
+   Your message should be relevant and written in the present tense.  
 **_You have now added and committed for the first time._**
 #### Remote repositories
 
