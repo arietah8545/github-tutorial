@@ -79,13 +79,12 @@ _by Arieta Haskaj_
 3. Under "Repository name", type the name _exactly_ the same as your repository in cloud9. Then click  
    the green button called "Create repository".
 #### Linking your remote repository to your local repository on cloud9
-1. Go to your repository in cloud9.
-2. 
+1. 
 
 
 ---
 ## Workflow & Commands
-
+1. 
 
 
 ---
