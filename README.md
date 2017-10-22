@@ -79,7 +79,8 @@ _by Arieta Haskaj_
 3. Under "Repository name", type the name _exactly_ the same as your repository in cloud9. Then click  
    the green button called "Create repository".
 #### Linking your remote repository to your local repository on cloud9
-1. 
+1. Go to your project page on github.
+2. 
 
 
 ---
@@ -102,3 +103,7 @@ _by Arieta Haskaj_
   takes it off of the stage.
 * **To undo a commit, add, and edit,** you use the command `git reset --hard HEAD-1`. This completely rollsback to 
   your last committed version of the code. 
+* **To undo a pushed commit:**
+  1. In the terminal in cloud9, do `git log` to get the commit SHA. Press **q** to quit.
+  2. Do `git revert a b`, with a being the most recent commit and b being the commit before that.
+     * This will revert back to the commit you put the SHA key for.
