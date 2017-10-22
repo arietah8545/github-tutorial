@@ -80,7 +80,12 @@ _by Arieta Haskaj_
    the green button called "Create repository".
 #### Linking your remote repository to your local repository on cloud9
 1. Go to your project page on github.
-2. 
+2. Click on the green button that says "Clone or download" and copy the URL but make sure it says 
+   "Clone with SSH".
+3. In the terminal in cloud9, type `git add remote origin URL", the URL being what you just copied.  
+   This creates a bridge between your local and remote repositories.
+4. Type `git push -u origin master`. This sets a specific repository as default so you can later  
+   just type `git push` each time to push your commits.
 
 
 ---
