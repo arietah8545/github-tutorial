@@ -84,11 +84,21 @@ _by Arieta Haskaj_
 
 ---
 ## Workflow & Commands
-* Adding, committing, and pushing should be done often enough to ensure that you work is being saved and so that  
-  you can rollback to a working version of your code.
+* Adding, committing, and pushing should be done often enough to ensure that you work is being saved and so 
+  that you can rollback to a working version of your code.
 * You should also do `git status` often, every other command is best, to be sure that you are adding, committing,  
   and pushing correctly and to show you that everything is on track.
 
 
 ---
 ## Rolling Back Changes
+* To undo an edit, you use the command `git checkout --filename`. This will undo any changes you have made since  
+  your last commit.
+* To undo something that was added, you use the command `git reset HEAD filename`. This will take everything off  
+  of the staging area.
+* To undo something that was committed, you use the command `git reset --soft HEAD-1`. This removes the "snapshot" 
+  taken and brings it back to the staging area.
+* To undo a commit and add, you use the command `git reset HEAD-1`. This removes the "snapshot" taken and takes  
+  it off of the stage.
+* To undo a commit, add, and edit, you use the command `git reset --hard HEAD-1`. This completely rollsback to your  
+  last committed version of the code. 
