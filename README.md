@@ -84,7 +84,10 @@ _by Arieta Haskaj_
 
 ---
 ## Workflow & Commands
-1. 
+* Adding, committing, and pushing should be done often enough to ensure that you work is being saved and so that  
+  you can rollback to a working version of your code.
+* You should also do `git status` often, every other command is best, to be sure that you are adding, committing,  
+  and pushing correctly and to show you that everything is on track.
 
 
 ---
