@@ -92,13 +92,13 @@ _by Arieta Haskaj_
 
 ---
 ## Rolling Back Changes
-* To undo an edit, you use the command `git checkout --filename`. This will undo any changes you have made since  
-  your last commit.
-* To undo something that was added, you use the command `git reset HEAD filename`. This will take everything off  
-  of the staging area.
+* To undo an edit, you use the command `git checkout --filename`. This will undo any changes you have made 
+  since your last commit.
+* To undo something that was added, you use the command `git reset HEAD filename`. This will take everything 
+  off of the staging area.
 * To undo something that was committed, you use the command `git reset --soft HEAD-1`. This removes the "snapshot" 
   taken and brings it back to the staging area.
-* To undo a commit and add, you use the command `git reset HEAD-1`. This removes the "snapshot" taken and takes  
-  it off of the stage.
-* To undo a commit, add, and edit, you use the command `git reset --hard HEAD-1`. This completely rollsback to your  
-  last committed version of the code. 
+* To undo a commit and add, you use the command `git reset HEAD-1`. This removes the "snapshot" taken and 
+  takes it off of the stage.
+* To undo a commit, add, and edit, you use the command `git reset --hard HEAD-1`. This completely rollsback to 
+  your  last committed version of the code. 
