@@ -15,31 +15,33 @@ _by Arieta Haskaj_
 * **_Cloud9_** is a place where you can code in a language of your choice and your projects will live  
   in a cloud  
     * We consider this our local directory
-* Git does **NOT** need github to run
+* Git **DOES   NOT** need GitHub to run
 
 #### Github is a website where code is stored. 
 * Code is stored in the cloud
 * It visually tracks changes
 * Code is sent from our local machine to github
-* Github **NEEDS** git to run
+* Github **NEEDS** Git to run
 
 
 ---
 ## Initial Setup
 #### Creating a github account and connecting it to cloud9
-1. Go to [github](www.github.com).
+1. Click on [GitHub](www.github.com) to be directed 
 2. You should see a screen asking you to create an account. If not, click on "Sign up"  
    in the top-right corner.
 3. Type in a username, email address, and password then click "Create an account".
-4. It will bring you to a welcome page. Choose the option that says "Unlimited public repositories for free"  
-   and click "Continue". You have now created an account.
+4. You will be directed to a welcome page. Choose the option that says "Unlimited public repositories for free" and click "Continue". 
+5. You will be asked for your personal experiences, make sure to click the **continue** button whenever you're done.
+  
+You have now created a GitHub account.
 #### Connecting your github to cloud9  
-1. Go to [cloud9](www.c9.io).
+1. Click on [cloud9](www.c9.io) to be directed 
 2. Click on the image of the github "octocat" and sign in with your github account.
 3. Once you sign in you should be taken to your dashboard where you can see your workspaces.  
    If not, press on "DASHBOARD" at the top of the screen.
 4. Press the gear icon in the top-right corner of the screen.
-5. On the left side, press "SSH Keys".
+5. On the left side, press "SSH Keys" **Make sure you do not copy HTTPS**
 6. Copy the second SSH key.
 7. On github, press on your profile picture and click "Settings" on the dropdown.
 8. Press "SSH and GPG keys" on the left side and then the green button that says "New SSH key".
